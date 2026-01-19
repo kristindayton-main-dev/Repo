@@ -1,20 +1,15 @@
-![Security: Verified](https://img.shields.io/badge/Security-Verified-green?style=flat-square)
+Update README.md
+### 🛡️ The SteadyPath Mission: Deterministic Transaction Safety
 
-# Repo
-# 🛡️ Kristin Dayton | Founder @SteadyPathPay
+SteadyPathPay is bridging the gap between high-speed decentralized finance and institutional security requirements. In an environment where "code is law," we provide the "Undo" button and the oversight necessary for responsible asset management.
 
-> **Building the future of deterministic transaction staging and automated security auditing.**
+#### **Key Architecture Pillars:**
 
-### 🚀 Current Focus
-* **SteadyPath Orchestrator:** Developing the AI-driven "Brain" for transaction safety.
-* **Waterfall Yield Engines:** Automating complex yield distribution logic via Google Cloud.
-* **Deterministic Staging:** Creating the 30-minute 'Undo' window for secure asset movement.
-
-### 🛠️ Tech Stack
-* **Cloud:** Google Cloud Platform (Cloud Run, Vertex AI, Secret Manager)
-* **AI:** Gemini 1.5 Flash (Security Auditing & Code Analysis)
-* **Backend:** Python / Node.js
-* **Security:** Deterministic State Management & Vaulting
+* **Gemini-Powered Auditing:** We utilize Vertex AI and Gemini 1.5 Flash to perform real-time heuristic analysis of transaction payloads. This identifies "fat-finger" errors, malicious smart contract interactions, and logic-bombs before they reach the chain.
+* **The 30-Minute Staging Window:** By implementing a deterministic staging layer on Google Cloud, we create a temporal buffer. This allows the SteadyPath Orchestrator to validate state changes and provide a recovery path for unintended transactions.
+* **Waterfall Yield Orchestration:** Automating the complex distribution of yield across multi-sig and cold-storage environments. Our engine ensures that liquidity moves according to strict, pre-defined regulatory and business logic.
+* **GCP-Native Security:** Built on a foundation of Google Cloud Secret Manager, Identity-Aware Proxy (IAP), and Cloud Run, ensuring that even the orchestration layer remains invisible to public-facing threats.
 
 ---
-*“Complexity is the enemy of security. We build for clarity.”*
+**Status:** Alpha Development Phase  
+**Inquiries:** [kristin-dev@steadypath.dev] (or your dedicated email)
